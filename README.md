@@ -4,7 +4,7 @@ word count in C using multithreading
 This sourcecode will compile (using the included Makefile) into a properly running executable called Countfolder. Countfolder should reside in the directory that contains list_file.txt as well as the subdirectory CountingFolder.
 
 The below results were obtained when I ran the Countfolder program.
-
+~~~~
 -bash-4.1$ Countfolder
 Counting files ...
 Threadid 1 processes 1_100.txt which has 521 characters, 94 words and 3 lines
@@ -252,3 +252,4 @@ Threadid 4 processes 3_8.txt which has 34 characters, 4 words and 2 lines
 Threadid 4 processes 3_9.txt which has 25 characters, 6 words and 1 lines
 -------------------------Processes finished for Thread 4 ------------------------------
 -bash-4.1$
+~~~~
